@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://valGe-lang.github.io/gh-pages",
+  "homepage": "https://valGe-lang.github.io/",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
