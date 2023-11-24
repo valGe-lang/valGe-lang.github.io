@@ -109,7 +109,7 @@ const Overlay = () => (
     >
       
             
-      <Box color="white" maxWidth="1280px" margin="0 auto">
+      <Box color="white" maxWidth="1500px" margin="0 auto">
         <HStack
           px={16}
           py={4}
@@ -118,7 +118,7 @@ const Overlay = () => (
         >
 
           <nav>
-            <HStack spacing={6}>
+            <HStack spacing={7}>
             <a href="https://github.com/valGe-lang"><FontAwesomeIcon icon={faGithub} size="2x"/></a>
             <FontAwesomeIcon ml='4' onClick={() => { setOverlay(<Overlay/>); onOpen()}} icon={faEnvelope} size="2x" />
             <Modal isCentered isOpen={isOpen} onClose={onClose}>
@@ -142,7 +142,7 @@ const Overlay = () => (
           </nav>
           <nav>
             <HStack spacing={8}>
-              <a href="/#projects" onClick={handleClick("projects")}>Projects</a>
+              <a href="/#projects" onClick={handleClick("projects")} >Projects</a>
               <a href="/#contact-me" onClick={handleClick("contactme")}>Contact Me</a>
             </HStack>
           </nav>

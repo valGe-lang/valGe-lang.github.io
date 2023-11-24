@@ -15,11 +15,11 @@ const LandingSection = () => (
     backgroundColor="#2A4365"
   >
     <VStack spacing={8}>
-  <Img src={photo} borderRadius='full' boxSize='320px' objectFit='cover' />
-  <Heading>{greeting}</Heading>
+  <Img src={photo} borderRadius='full' boxSize='300px' objectFit='cover' paddingTop="10px" />
+  <Heading as='h1' size='xl'>{greeting}</Heading>
   <VStack spacing={1}>
-    <Heading>{bio1}</Heading>
-    <Heading>{bio2}</Heading>
+    <Heading as='h2' size='2xl'>{bio1}</Heading>
+    <Heading as='h2' size='2xl'>{bio2}</Heading>
   </VStack>
   </VStack>
   </FullScreenSection>
