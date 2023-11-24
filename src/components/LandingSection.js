@@ -15,7 +15,7 @@ const LandingSection = () => (
     backgroundColor="#2A4365"
   >
     <VStack spacing={8}>
-  <Img src={photo} borderRadius='full' boxSize='300px' objectFit='cover' paddingTop="10px" />
+  <Img src={photo} borderRadius='full' boxSize='300px' objectFit='cover' paddingTop="15px" />
   <Heading as='h1' size='xl'>{greeting}</Heading>
   <VStack spacing={1}>
     <Heading as='h2' size='2xl'>{bio1}</Heading>
